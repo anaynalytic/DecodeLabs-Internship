@@ -1,17 +1,18 @@
-# Data Cleaning & Preparation Project
+# Exploratory Data Analysis (EDA) Project
 
 ## 📌 Project Overview
 This project was completed as part of the DecodeLabs Data Analytics Internship Program.
 
-The objective of this project is to clean and prepare a raw dataset by handling missing values, removing duplicates, and correcting inconsistent data formats to improve overall data quality and reliability.
+The objective of this project is to perform Exploratory Data Analysis (EDA) on a dataset to identify patterns, trends, distributions, and meaningful insights using Python libraries and visualization techniques.
 
 ---
 
 ## 🎯 Project Goals
-- Identify missing or null values
-- Remove duplicate records
-- Correct incorrect data formats
-- Prepare clean and reliable data for analysis
+- Understand the structure of the dataset
+- Perform descriptive statistical analysis
+- Identify trends and correlations
+- Detect outliers in the data
+- Visualize important insights using graphs
 
 ---
 
@@ -20,59 +21,66 @@ The objective of this project is to clean and prepare a raw dataset by handling 
 - Google Colab
 - Pandas
 - NumPy
+- Matplotlib
+- Seaborn
 
 ---
 
 ## 📊 Tasks Performed
 
-### 1. Data Loading
-- Imported the dataset using Pandas
-- Checked dataset structure and column details
+### 1. Data Loading & Inspection
+- Loaded the dataset using Pandas
+- Checked dataset structure, shape, and column information
+- Reviewed missing values and data types
 
-### 2. Missing Value Handling
-- Identified null and missing values
-- Handled missing data appropriately
+### 2. Descriptive Statistics
+Calculated:
+- Mean
+- Median
+- Count
+- Minimum and Maximum values
+- Standard Deviation
 
-### 3. Duplicate Removal
-- Detected duplicate rows in the dataset
-- Removed duplicate records to maintain data integrity
+### 3. Data Visualization
+Created visualizations such as:
+- Histograms
+- Boxplots
+- Correlation Heatmaps
+- Count Plots
 
-### 4. Data Formatting
-Corrected:
-- Date formats
-- Numerical values
-- Text formatting inconsistencies
+### 4. Correlation Analysis
+Analyzed relationships between numerical columns to identify patterns and dependencies.
 
-### 5. Data Validation
-- Verified cleaned dataset
-- Ensured consistency and accuracy of data
+### 5. Outlier Detection
+Detected unusual values in the dataset using boxplots and statistical techniques.
 
 ---
 
-## 📈 Key Outcomes
-- Missing values were successfully identified and handled
-- Duplicate records were removed
-- Data formats were standardized
-- Clean dataset was prepared for further analysis
+## 📈 Key Insights
+- Product sales distribution was analyzed successfully.
+- Printer was identified as one of the most sold products.
+- TotalPrice showed a strong relationship with UnitPrice.
+- Outliers were identified in numerical columns.
+- Correlation analysis helped in understanding feature relationships.
 
 ---
 
 ## 📁 Files Included
-- data_cleaning_analysis.ipynb
-- data_cleaning_analysis.py
-- Dataset for Data Analytics (1).xlsx
+- sales_data_analysis.ipynb
+- sales_data_analysis.py
+- Dataset for Data Analytics new(2).xlsx
 - README.md
 
 ---
 
 ## 🚀 Conclusion
-This project provided hands-on experience in:
-- Data cleaning techniques
-- Data preprocessing
-- Handling inconsistent datasets
-- Preparing data for analysis and visualization
+This project provided practical experience in:
+- Data cleaning and exploration
+- Statistical analysis
+- Data visualization
+- Extracting insights from raw datasets
 
-The project helped strengthen foundational skills required in Data Analytics and real-world data preparation workflows.
+The project helped strengthen foundational skills in Data Analytics and Exploratory Data Analysis (EDA).
 
 ---
 
