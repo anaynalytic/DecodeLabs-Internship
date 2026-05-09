@@ -1,88 +1,56 @@
-# Exploratory Data Analysis (EDA) Project
+# SQL Data Analysis Project
 
-## 📌 Project Overview
-This project was completed as part of the DecodeLabs Data Analytics Internship Program.
+## Overview
+This project focuses on performing SQL-based data analysis using Python and SQLite in Google Colab. The dataset contains order details such as customer information, products, payment methods, order status, and total price.
 
-The objective of this project is to perform Exploratory Data Analysis (EDA) on a dataset to identify patterns, trends, distributions, and meaningful insights using Python libraries and visualization techniques.
+The main objective of this project is to analyze business data and extract meaningful insights using SQL queries.
 
----
-
-## 🎯 Project Goals
-- Understand the structure of the dataset
-- Perform descriptive statistical analysis
-- Identify trends and correlations
-- Detect outliers in the data
-- Visualize important insights using graphs
-
----
-
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 - Python
-- Google Colab
 - Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- SQLite3
+- Google Colab
+- Excel Dataset
 
----
+## Dataset Features
+The dataset includes:
+- Order ID
+- Date
+- Customer ID
+- Product
+- Quantity
+- Unit Price
+- Payment Method
+- Order Status
+- Coupon Code
+- Referral Source
+- Total Price
 
-## 📊 Tasks Performed
+## Tasks Performed
+- Imported and loaded Excel dataset
+- Created SQL database using SQLite
+- Converted dataset into SQL table
+- Executed SQL queries for analysis
+- Applied filtering using WHERE clause
+- Sorted records using ORDER BY
+- Grouped data using GROUP BY
+- Performed aggregation functions:
+  - COUNT()
+  - SUM()
+  - AVG()
 
-### 1. Data Loading & Inspection
-- Loaded the dataset using Pandas
-- Checked dataset structure, shape, and column information
-- Reviewed missing values and data types
+## Key Insights
+- Identified highest revenue generating products
+- Analyzed preferred payment methods
+- Filtered delivered and cancelled orders
+- Calculated total and average sales
 
-### 2. Descriptive Statistics
-Calculated:
-- Mean
-- Median
-- Count
-- Minimum and Maximum values
-- Standard Deviation
+## Learning Outcomes
+Through this project, I gained practical knowledge of:
+- SQL query writing
+- Data filtering and sorting
+- Business data analysis
+- Database handling using SQLite
 
-### 3. Data Visualization
-Created visualizations such as:
-- Histograms
-- Boxplots
-- Correlation Heatmaps
-- Count Plots
-
-### 4. Correlation Analysis
-Analyzed relationships between numerical columns to identify patterns and dependencies.
-
-### 5. Outlier Detection
-Detected unusual values in the dataset using boxplots and statistical techniques.
-
----
-
-## 📈 Key Insights
-- Product sales distribution was analyzed successfully.
-- Printer was identified as one of the most sold products.
-- TotalPrice showed a strong relationship with UnitPrice.
-- Outliers were identified in numerical columns.
-- Correlation analysis helped in understanding feature relationships.
-
----
-
-## 📁 Files Included
-- sales_data_analysis.ipynb
-- sales_data_analysis.py
-- Dataset for Data Analytics new(2).xlsx
-- README.md
-
----
-
-## 🚀 Conclusion
-This project provided practical experience in:
-- Data cleaning and exploration
-- Statistical analysis
-- Data visualization
-- Extracting insights from raw datasets
-
-The project helped strengthen foundational skills in Data Analytics and Exploratory Data Analysis (EDA).
-
----
-
-## 👩‍💻 Author
-Ananya Koyalkar
+## Conclusion
+This project demonstrates how SQL can be integrated with Python to efficiently analyze structured datasets and generate useful business insights.
